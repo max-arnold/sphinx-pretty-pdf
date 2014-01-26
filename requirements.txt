@@ -1,0 +1,7 @@
+# documentation
+Sphinx==1.2.1
+Pygments==1.6
+docutils==0.11
+Jinja2==2.7.2
+MarkupSafe==0.18
+# sudo port install texlive-latex texlive-latex-recommended texlive-fonts-recommended texlive-fonts-extra texlive-latex-extra texlive-lang-cyrillic texlive-xetex
