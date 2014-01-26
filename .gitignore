@@ -4,3 +4,4 @@
 *.rej
 .DS_Store
 *.egg-info
+_build/
