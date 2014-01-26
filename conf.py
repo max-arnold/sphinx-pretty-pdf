@@ -188,7 +188,12 @@ latex_elements = {
     # The paper size ('letterpaper' or 'a4paper').
     'papersize': 'a4paper',
 
+    # enable cyrillic characters
     'babel': r'\usepackage[english, russian]{babel}',
+
+    # Remove blank pages
+    # http://stackoverflow.com/questions/5422997/sphinx-docs-remove-blank-pages-from-generated-pdfs
+    'classoptions': ',openany,oneside',
 
     # The font size ('10pt', '11pt' or '12pt').
     #'pointsize': '10pt',
